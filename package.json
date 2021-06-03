@@ -8,14 +8,14 @@
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +34,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "next": "^10.2.3",
+    "react-accessible-accordion": "^3.3.4",
+    "react-app-rewire-alias": "^1.0.3",
+    "react-app-rewired": "^2.1.8",
+    "react-component-countdown-timer": "^0.1.8",
+    "react-countup": "^4.3.3",
+    "react-icons": "^4.2.0",
+    "react-scroll": "^1.8.2",
+    "react-tabs": "^3.2.2",
+    "react-visibility-sensor": "^5.1.1",
+    "styled-components": "^5.3.0"
   }
 }
